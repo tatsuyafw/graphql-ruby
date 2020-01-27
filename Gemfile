@@ -15,6 +15,6 @@ end
 group :jekyll_plugins do
   if RUBY_VERSION >= "2.3"
     gem 'jekyll-algolia', '~> 1.0'
+    gem 'jekyll-redirect-from'
   end
-  gem 'jekyll-redirect-from'
 end
